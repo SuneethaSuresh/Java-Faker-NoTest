@@ -11,10 +11,10 @@ jobs:
 
     steps:     
      - uses: actions/checkout@v3
-     - uses: debricked/actions/callgraph@v4
+     - uses: debricked/actions/callgraph@v3
      - run: |
           ls
-     - uses: debricked/actions@v4
+     - uses: debricked/actions@v3
        env:
           DEBRICKED_TOKEN: '32cab62f9e6f255ac0f7c38cf69c91131276ad0c0fd3fbe6'
           DEBRICKED_URI: 'https://review-6831-reach-qc4gm9.review.debricked.dev'
